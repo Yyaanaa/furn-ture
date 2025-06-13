@@ -6,7 +6,7 @@
 }
 body {
   font-family: 'Futura Std', sans-serif;
-  color: #333;
+  color: #333333;
   line-height: 1.5;
 }
 .container {
@@ -74,11 +74,10 @@ body {
 .filter-btn.active,
 .filter-btn:hover {
   background: #F2AFA3;
-  color: #fff;
+  color: #ffffff;
   border-color: #F2AFA3;
 }
 
-/* === Products Grid === */
 .products {
   padding: 20px 0 60px;
 }
