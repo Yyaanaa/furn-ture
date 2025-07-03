@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -92,13 +91,20 @@ body {
   padding: .8em;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-.card-img {
-  background-color: #C7EACA;
+.card-img-container {
   height: 120px;
   border-radius: .5rem;
+  overflow: hidden;
+  background-color: #C7EACA;
+  position: relative;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: transform .3s, box-shadow .3s;
 }
-.card-img:hover {
+.card-img-container:hover .card-img {
   transform: translateY(-10%);
   box-shadow: 0 8px 16px rgba(0,0,0,0.15);
 }
