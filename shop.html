@@ -12,7 +12,7 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <img src="images/logo.PNG" alt="" class="logo-img">
+      <img src="images/logo.PNG" alt="FURN TURE Logo" class="logo-img">
       <nav class="main-nav">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -31,21 +31,46 @@
     <section class="shop-header">
       <div class="container">
         <h1>Shop Our Collection</h1>
-        <div class="filter-container">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="chair">Chairs</button>
-          <button class="filter-btn" data-filter="sofa">Sofas</button>
-          <button class="filter-btn" data-filter="bed">Beds</button>
-          <button class="filter-btn" data-filter="table">Tables</button>
-          <button class="filter-btn" data-filter="lamp">Lamps</button>
-          <button class="filter-btn" data-filter="set">Sets</button>
+        <div class="filter-wrapper">
+          <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">
+              <span>All</span>
+              <div class="filter-indicator"></div>
+            </button>
+            <button class="filter-btn" data-filter="chair">
+              <span>Chairs</span>
+              <div class="filter-indicator"></div>
+            </button>
+            <button class="filter-btn" data-filter="sofa">
+              <span>Sofas</span>
+              <div class="filter-indicator"></div>
+            </button>
+            <button class="filter-btn" data-filter="bed">
+              <span>Beds</span>
+              <div class="filter-indicator"></div>
+            </button>
+            <button class="filter-btn" data-filter="table">
+              <span>Tables</span>
+              <div class="filter-indicator"></div>
+            </button>
+            <button class="filter-btn" data-filter="lamp">
+              <span>Lamps</span>
+              <div class="filter-indicator"></div>
+            </button>
+            <button class="filter-btn" data-filter="set">
+              <span>Sets</span>
+              <div class="filter-indicator"></div>
+            </button>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="products">
-      <div class="cards-container" id="cards-container">
+      <div class="container">
+        <div class="cards-container" id="cards-container">
       
+        </div>
       </div>
     </section>
   </main>
@@ -75,7 +100,6 @@
           <a href="#"><i class="fab fa-twitter"></i></a>
         </div>
       </div>
-      
     </div>
     <div class="footer-bottom">
       <p>© 2025 Furn Ture. All rights reserved.</p>
